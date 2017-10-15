@@ -1,0 +1,19 @@
+{
+  "name": "date-mate",
+  "version": "1.0.0",
+  "description": "A compatibility based app to find friends using answers for user surveys and compare answers from other users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshRotman/Date-Mate.git"
+  },
+  "author": "Ash Rotman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshRotman/Date-Mate/issues"
+  },
+  "homepage": "https://github.com/AshRotman/Date-Mate#readme"
+}
