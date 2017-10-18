@@ -12,6 +12,26 @@
 </head>
 <body>
 
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">And your best match is...</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id='friendName'></p>
+                <img id='friendImg' src="" height='200'>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
 <div class="container">
 
     <h1>Survey Questions</h1>
@@ -34,7 +54,7 @@
         </div>  
         <hr>
         <h3>Question 1</h3>
-        <h4></h4>
+        <h4>I love walks on the beach</h4>
         <div class="form-group">  
             <select name="quest1" id="q1">
                 <option selected>choose an option</option>
@@ -47,7 +67,7 @@
         </div>
         <br>
         <h3>Question 2</h3>
-        <h4></h4>
+        <h4>I hate being outside</h4>
         <div class="form-group">  
             <select name="quest2" id="q2">
                 <option selected>choose an option</option>
@@ -60,7 +80,7 @@
         </div>
         <br>
         <h3>Question 3</h3>
-        <h4></h4>
+        <h4>I prefer to live with my parents</h4>
         <div class="form-group">  
             <select name="quest3" id="q3">
                 <option selected>choose an option</option>
@@ -73,7 +93,7 @@
         </div>
         <br>
         <h3>Question 4</h3>
-        <h4></h4>
+        <h4>I love anything that gets my adrenaline going</h4>
         <div class="form-group">  
             <select name="quest4" id="q5">
                 <option selected>choose an option</option>
@@ -86,7 +106,7 @@
         </div>
         <br>
         <h3>Question 5</h3>
-        <h4></h4>
+        <h4>I am a republican</h4>
         <div class="form-group">  
             <select name="quest5" id="q5">>
                 <option selected>choose an option</option>
@@ -104,13 +124,12 @@
     
         <footer class="footer">
             <div class="container">
-                <p><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a></p>
+                <p><a href="/api/friends">API friends list</a> | <a href="https://github.com/AshRotman/Date-Mate">Github</a></p>
             </div>
         </footer>
     
 </div>
     
-</div>
-    
+<script src='logic.js'></script>
 </body>    
 </html>
