@@ -8,8 +8,8 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-require("/app/routing.apiRoutes");
-require("/app/routing/htmlRoutes");
+require("./app/routing.apiRoutes") (app);
+require("./app/routing.htmlRoutes") (app);
 
 app.listen(PORT, function() {
   console.log("app listening on port " + PORT);
