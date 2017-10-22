@@ -1,4 +1,4 @@
-var newUser = {};
+ var newUser = {};
 var friend = {
 	diff: 100,
 	name: "",
